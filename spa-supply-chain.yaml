@@ -32,7 +32,7 @@ spec:
     - name: registry
       value:
         repository: apps
-        server: harbor.apps.cf.tanzutime.com
+        server: hirokimrepo.azurecr.io
     templateRef:
       kind: ClusterTemplate
       name: deliverable-template
@@ -45,7 +45,7 @@ spec:
     - name: registry
       value:
         repository: apps
-        server: harbor.apps.cf.tanzutime.com
+        server: hirokimrepo.azurecr.io
     sources:
     - name: source
       resource: source-provider
@@ -79,7 +79,7 @@ spec:
     - name: registry
       value:
         repository: apps
-        server: harbor.apps.cf.tanzutime.com
+        server: hirokimrepo.azurecr.io
     templateRef:
       kind: ClusterTemplate
       name: config-writer-template

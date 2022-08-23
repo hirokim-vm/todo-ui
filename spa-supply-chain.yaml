@@ -31,7 +31,7 @@ spec:
     params:
     - name: registry
       value:
-        repository: apps
+        repository: supply-chain-testing
         server: hirokimrepo.azurecr.io
     templateRef:
       kind: ClusterTemplate
@@ -44,7 +44,7 @@ spec:
       value: spa
     - name: registry
       value:
-        repository: apps
+        repository: supply-chain-testing
         server: hirokimrepo.azurecr.io
     sources:
     - name: source
@@ -78,7 +78,7 @@ spec:
       value: default
     - name: registry
       value:
-        repository: apps
+        repository: supply-chain-testing
         server: hirokimrepo.azurecr.io
     templateRef:
       kind: ClusterTemplate
